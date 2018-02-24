@@ -1,0 +1,42 @@
+{
+  "name": "through1",
+  "version": "0.1.0",
+  "description": "A simple utility for creating 1 to 1 transform stream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "kocha --require babel-register test.js",
+    "lint": "standard",
+    "cov": "nyc -r lcov -r text npm test",
+    "codecov": "npm run cov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/through1.git"
+  },
+  "keywords": [
+    "through",
+    "stream",
+    "node"
+  ],
+  "author": "Yoshiya Hinosawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/through1/issues"
+  },
+  "homepage": "https://github.com/kt3k/through1#readme",
+  "devDependencies": {
+    "babel-preset-power-assert": "^2.0.0",
+    "babel-register": "^6.26.0",
+    "bl": "^1.2.1",
+    "codecov": "^3.0.0",
+    "funsert": "^0.1.1",
+    "into-stream": "^3.1.0",
+    "kocha": "^1.9.1",
+    "lint-staged": "^7.0.0",
+    "nyc": "^11.4.1",
+    "power-assert": "^1.4.4",
+    "prettier": "^1.10.2",
+    "standard": "^11.0.0",
+    "stream-assert": "^2.0.3"
+  }
+}
