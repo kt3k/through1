@@ -1,4 +1,4 @@
-# :arrow_right: :one: through1 v0.1.0
+# :one::aquarius::one: through1 v0.1.0
 
 > A simple utility for creating 1 to 1 transform stream.
 
@@ -64,9 +64,19 @@ If you work on **object mode**:
 through1.obj(file => myTransformPromise(file))
 ```
 
+# Comparison
+
+                        | through1 | [map-stream][] | [gulp-map][]
+------------------------|----------|----------------|--------------
+object mode support     | ✅        | ✅              | ✅
+non object mode support | ✅        | ✅              | ❌
+promise support         | ✅        | ❌              | ✅
+
 # License
 
 MIT
 
 [through2]: https://npm.im/through2
 [gulp]: https://npm.im/gulp
+[map-stream]: https://npm.im/map-stream
+[gulp-map]: https://npm.im/gulp-map
