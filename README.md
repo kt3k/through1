@@ -1,4 +1,4 @@
-# :one::aquarius::one: through1 v0.1.0
+# :one::aquarius::one: through1 v1.0.0
 
 [![CircleCI](https://circleci.com/gh/kt3k/through1.svg?style=svg)](https://circleci.com/gh/kt3k/through1)
 [![codecov](https://codecov.io/gh/kt3k/through1/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/through1)
