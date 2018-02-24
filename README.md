@@ -69,11 +69,14 @@ through1.obj(file => myTransformPromise(file))
 
 # Comparison
 
-|                        | through1 | [map-stream][] | [gulp-map][]
-|------------------------|----------|----------------|--------------
-|object mode support     | ✅        | ✅              | ✅
-|non object mode support | ✅        | ✅              | ❌
-|promise support         | ✅        | ❌              | ✅
+|                         | through1 | [map-stream][] | [gulp-map][]
+|-------------------------|----------|----------------|--------------
+| object mode support     | ✅        | ✅              | ✅
+| non object mode support | ✅        | ✅              | ❌
+| promise support         | ✅        | ❌              | ✅
+| stream version          | stream 2 | stream 1       | stream 2
+| back-pressure support   | ✅        | ❌              | ✅
+| dependencies            | 0        | 0              | 8
 
 # License
 
