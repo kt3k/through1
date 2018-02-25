@@ -1,6 +1,6 @@
 {
   "name": "through1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility for creating 1 to 1 transform stream.",
   "main": "index.js",
   "scripts": {
