@@ -13,7 +13,7 @@ Via npm:
 
 # Motivation
 
-The most transforms are 1 to 1 transform. One output for each input. The official transform constructor is too complex for this usage. It has the following signature:
+In the the most use cases, transforms are 1 to 1 transform, which means that it generates one output for each input. The official transform constructor is too complex for this usage. It has the following signature:
 
 ```js
 new Transform({
@@ -76,7 +76,7 @@ through1.obj(file => myTransformPromise(file))
 | promise support         | ✅        | ❌              | ✅
 | stream version          | stream 2 | stream 1       | stream 2
 | back-pressure support   | ✅        | ❌              | ✅
-| dependencies            | 0        | 0              | 8
+| dependencies            | 0        | 0              | [9](https://gist.github.com/kt3k/4cab6a63514381027f47046572d8d7ec)
 
 # License
 
